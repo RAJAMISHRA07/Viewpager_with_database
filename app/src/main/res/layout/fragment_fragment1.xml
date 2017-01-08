@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#999"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.viewpager_with_database.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/et1"
+         android:textStyle="italic"
+         android:textColorHint="#500"
+         android:hint="Enter your name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:textStyle="italic"
+        android:textColorHint="#500"
+        android:hint="Enter your salary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:textStyle="italic"
+        android:textColorHint="#500"
+        android:hint="Enter your subject"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="insert"
+        android:textStyle="bold"
+        android:textColor="#217"
+        android:id="@+id/button"/>
+
+</LinearLayout>
